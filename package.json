@@ -2,6 +2,7 @@
   "name": "clonetok",
   "version": "0.0.0",
   "scripts": {
+    "co": "sui-mono commit",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
@@ -11,6 +12,7 @@
     "react-dom": "17.0.0"
   },
   "devDependencies": {
+    "@s-ui/mono": "^2.18.0",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@vitejs/plugin-react": "1.0.0",
@@ -19,6 +21,8 @@
     "vite": "2.6.4"
   },
   "-eslintConfig": {
-    "extends": ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
