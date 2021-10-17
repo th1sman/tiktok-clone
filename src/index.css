@@ -10,10 +10,21 @@
     src: url('assests/HKGrotesk-Bold.woff2')
      format('woff2');
      font-weight: 600;
-}
+} 
 
 body {
     margin: 0;
     font-family: 'HKGrotesk', Arial, Helvetica, sans-serif;
-
 }
+
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
